@@ -1,0 +1,782 @@
+{
+    "solar_system": {
+        "information": {
+            "about": "El sistema solar es un conjunto formado por el Sol y los objetos celestes que orbitan a su alrededor, incluyendo planetes, planetes enanos, asteroides, cometas y otros cuerpos celestes.",
+            "history": "El estudio del sistema solar ha evolucionado a lo largo de la historia, desde las primeras observaciones astronómicas hasta las misiones espaciales modernas que han permitido explorar y obtener datos más detallados sobre los diferentes cuerpos celestes."
+        },
+        "star": {
+            "name": "Sol",
+            "type": "Estrella enana",
+            "description": "El Sol es una estrella enana, una esfera casi perfecta de plasma caliente que proporciona luz, calor y energía a todo el sistema solar. Su diámetro es aproximadamente 109 veces el de la Tierra y su mass representa alrededor del 99.86% de la mass total del sistema solar. Está compuesto principalmente por hidrógeno y helio, y su temperatura en su núcleo alcanza millones de grados Celsius, donde ocurren reacciones nucleares que generan la energía radiante que irradia al espacio.",
+            "information": {
+                "approximate_age": "4.6 mil millones de años",
+                "composition": "Principalmente hidrógeno y helio",
+                "diameter": "1,392,684 km",
+                "mass": "333,000 Tierras"
+            }
+        },
+        "planetes": [
+            {
+                "name": "Mercurio",
+                "type": "Planeta terrestre",
+                "description": "Mercurio es el planeta más cercano al Sol y carece de una atmósfera significativa.",
+                "characteristics": {
+                    "diameter": "4,880 km",
+                    "mass": "0.055 Tierras",
+                    "orbital_period": "88 días",
+                    "atmosphere": "Muy delgada, compuesta por trazas de gases como helio, hidrógeno, oxígeno y sodio.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Venus",
+                "type": "Planeta terrestre",
+                "description": "Venus es conocido por su atmósfera densa y su superficie extremadamente caliente.",
+                "characteristics": {
+                    "diameter": "12,104 km",
+                    "mass": "0.815 Tierras",
+                    "orbital_period": "225 días",
+                    "atmosphere": "Predominantemente dióxido de carbono, con densas nubes de ácido sulfúrico.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Tierra",
+                "type": "Planeta terrestre",
+                "description": "La Tierra es el único planeta conocido que alberga vida.",
+                "characteristics": {
+                    "diameter": "12,742 km",
+                    "mass": "1 Tierra",
+                    "orbital_period": "365 días",
+                    "atmosphere": "Compuesta principalmente por nitrógeno y oxígeno, con trazas de otros gases.",
+                    "satellite": [
+                        {
+                            "name": "Luna",
+                            "type": "Satélite natural",
+                            "description": "La Luna es el único satélite natural de la Tierra y el quinto satélite más grande del sistema solar.",
+                            "characteristics": {
+                                "diameter": "3,474 km",
+                                "mass": "0.0123 Tierras",
+                                "orbital_period": "27 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Marte",
+                "type": "Planeta terrestre",
+                "description": "Marte, apodado 'el planeta rojo', posee características geológicas similares a la Tierra.",
+                "characteristics": {
+                    "diameter": "6,779 km",
+                    "mass": "0.107 Tierras",
+                    "orbital_period": "687 días",
+                    "atmosphere": "Principalmente dióxido de carbono con trazas de nitrógeno y argón.",
+                    "satellite": [
+                        {
+                            "name": "Fobos",
+                            "type": "Satélite natural",
+                            "description": "Fobos es el satélite más grande de Marte y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "22 km",
+                                "mass": "0.000000000000000001 Tierras",
+                                "orbital_period": "8 horas",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Deimos",
+                            "type": "Satélite natural",
+                            "description": "Deimos es el satélite más pequeño de Marte y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "12 km",
+                                "mass": "0.0000000000000000002 Tierras",
+                                "orbital_period": "30 horas",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Júpiter",
+                "type": "Planeta gaseoso",
+                "description": "Júpiter es el planeta más grande del sistema solar y posee una gran mancha roja visible.",
+                "characteristics": {
+                    "diameter": "139,820 km",
+                    "mass": "317.8 Tierras",
+                    "orbital_period": "12 años",
+                    "atmosphere": "Predominantemente hidrógeno y helio, con nubes de amoníaco y metano.",
+                    "satellite": [
+                        {
+                            "name": "Io",
+                            "type": "Satélite natural",
+                            "description": "Io es el satélite más volcánicamente activo del sistema solar y tiene un color amarillo brillante.",
+                            "characteristics": {
+                                "diameter": "3,642 km",
+                                "mass": "0.015 Tierras",
+                                "orbital_period": "1.8 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Europa",
+                            "type": "Satélite natural",
+                            "description": "Europa es uno de los satélites más grandes de Júpiter y tiene una superficie cubierta de hielo.",
+                            "characteristics": {
+                                "diameter": "3,122 km",
+                                "mass": "0.008 Tierras",
+                                "orbital_period": "3.5 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Ganímedes",
+                            "type": "Satélite natural",
+                            "description": "Ganímedes es el satélite más grande del sistema solar y tiene una superficie cubierta de hielo.",
+                            "characteristics": {
+                                "diameter": "5,262 km",
+                                "mass": "0.025 Tierras",
+                                "orbital_period": "7.1 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Calisto",
+                            "type": "Satélite natural",
+                            "description": "Calisto es uno de los satélites más grandes de Júpiter y tiene una superficie cubierta de hielo.",
+                            "characteristics": {
+                                "diameter": "4,820 km",
+                                "mass": "0.018 Tierras",
+                                "orbital_period": "16.7 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Amaltea",
+                            "type": "Satélite natural",
+                            "description": "Amaltea es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "250 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "12 horas",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Tebe",
+                            "type": "Satélite natural",
+                            "description": "Tebe es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "100 km",
+                                "mass": "0.00000000000000000001 Tierras",
+                                "orbital_period": "7 horas",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Leda",
+                            "type": "Satélite natural",
+                            "description": "Leda es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "20 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "11 horas",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Himalia",
+                            "type": "Satélite natural",
+                            "description": "Himalia es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "150 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "250 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Elara",
+                            "type": "Satélite natural",
+                            "description": "Elara es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "80 km",
+                                "mass": "0.00000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Pasífae",
+                            "type": "Satélite natural",
+                            "description": "Pasífae es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "60 km",
+                                "mass": "0.000000000000000000001 Tierras",
+                                "orbital_period": "750 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Sinope",
+                            "type": "Satélite natural",
+                            "description": "Sinope es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "750 días"
+                            }
+                        },
+                        {
+                            "name": "Lisitea",
+                            "type": "Satélite natural",
+                            "description": "Lisitea es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 1938 por Seth Barnes Nicholson.",
+                            "characteristics": {
+                                "diameter": "36 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Carme",
+                            "type": "Satélite natural",
+                            "description": "Carme es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 1938 por Seth Barnes Nicholson.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "750 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Ananqué",
+                            "type": "Satélite natural",
+                            "description": "Ananqué es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 1951 por Seth Barnes Nicholson.",
+                            "characteristics": {
+                                "diameter": "28 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "630 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Leda",
+                            "type": "Satélite natural",
+                            "description": "Leda es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 1974 por Charles T. Kowal.",
+                            "characteristics": {
+                                "diameter": "20 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "240 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Temisto",
+                            "type": "Satélite natural",
+                            "description": "Temisto es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 1975 por Charles T. Kowal.",
+                            "characteristics": {
+                                "diameter": "10 km",
+                                "mass": "0.00000000000000000000001 Tierras",
+                                "orbital_period": "130 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Eukélade",
+                            "type": "Satélite natural",
+                            "description": "Eukélade es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2001 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "4 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Heliké",
+                            "type": "Satélite natural",
+                            "description": "Heliké es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2003 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "4 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Carpo",
+                            "type": "Satélite natural",
+                            "description": "Carpo es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2003 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "3 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "S/2003 J 12",
+                            "type": "Satélite natural",
+                            "description": "S/2003 J 12 es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2003 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "2 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "S/2003 J 18",
+                            "type": "Satélite natural",
+                            "description": "S/2003 J 18 es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2003 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "2 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "S/2010 J 1",
+                            "type": "Satélite natural",
+                            "description": "S/2010 J 1 es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado. Fue descubierto en 2010 por Scott S. Sheppard.",
+                            "characteristics": {
+                                "diameter": "2 km",
+                                "mass": "0.0000000000000000000000001 Tierras",
+                                "orbital_period": "260 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Saturno",
+                "type": "Planeta gaseoso",
+                "description": "Saturno es conocido por sus espectaculares anillos compuestos principalmente de partículas de hielo. Es el segundo planeta más grande del sistema solar.",
+                "characteristics": {
+                    "diameter": "116,460 km",
+                    "mass": "95.2 Tierras",
+                    "orbital_period": "29 años",
+                    "atmosphere": "Compuesta principalmente por hidrógeno con trazas de helio y otros gases.",
+                    "satellite": [
+                        {
+                            "name": "Mimas",
+                            "type": "Satélite natural",
+                            "description": "Mimas es uno de los satélites más pequeños de Saturno y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "396 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "0.9 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Encélado",
+                            "type": "Satélite natural",
+                            "description": "Encélado es uno de los satélites más pequeños de Saturno y tiene una superficie cubierta de hielo.",
+                            "characteristics": {
+                                "diameter": "504 km",
+                                "mass": "0.0000000000000000003 Tierras",
+                                "orbital_period": "1.4 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Tetis",
+                            "type": "Satélite natural",
+                            "description": "Tetis es uno de los satélites más pequeños de Saturno y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,062 km",
+                                "mass": "0.000000000000000001 Tierras",
+                                "orbital_period": "1.9 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Dione",
+                            "type": "Satélite natural",
+                            "description": "Dione es uno de los satélites más pequeños de Saturno y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,123 km",
+                                "mass": "0.000000000000000001 Tierras",
+                                "orbital_period": "2.7 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Rea",
+                            "type": "Satélite natural",
+                            "description": "Rea es uno de los satélites más pequeños de Saturno y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,528 km",
+                                "mass": "0.000000000000000002 Tierras",
+                                "orbital_period": "4.5 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Titán",
+                            "type": "Satélite natural",
+                            "description": "Titán es el satélite más grande de Saturno y tiene una atmósfera densa.",
+                            "characteristics": {
+                                "diameter": "5,150 km",
+                                "mass": "0.000000000000000055 Tierras",
+                                "orbital_period": "16 días",
+                                "atmosphere": "Compuesta principalmente por nitrógeno con trazas de metano y otros gases."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Urano",
+                "type": "Planeta gaseoso",
+                "description": "Urano es conocido por su inclinación axial extrema, rotando casi de lado.",
+                "characteristics": {
+                    "diameter": "50,724 km",
+                    "mass": "14.5 Tierras",
+                    "orbital_period": "84 años",
+                    "atmosphere": "Compuesta por hidrógeno, helio y metano, lo que le da un color azul verdoso.",
+                    "satellite": [
+                        {
+                            "name": "Ariel",
+                            "type": "Satélite natural",
+                            "description": "Ariel es uno de los satélites más pequeños de Urano y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,158 km",
+                                "mass": "0.000000000000000001 Tierras",
+                                "orbital_period": "2.5 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Umbriel",
+                            "type": "Satélite natural",
+                            "description": "Umbriel es uno de los satélites más pequeños de Urano y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,169 km",
+                                "mass": "0.000000000000000001 Tierras",
+                                "orbital_period": "4 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Titania",
+                            "type": "Satélite natural",
+                            "characteristics": {
+                                "diameter": "1,578 km",
+                                "mass": "0.000000000000000002 Tierras",
+                                "orbital_period": "8.7 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Oberon",
+                            "type": "Satélite natural",
+                            "description": "Oberon es uno de los satélites más pequeños de Urano y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "1,522 km",
+                                "mass": "0.000000000000000002 Tierras",
+                                "orbital_period": "13 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Miranda",
+                            "type": "Satélite natural",
+                            "description": "Miranda es uno de los satélites más pequeños de Urano y tiene una superficie cubierta de cráteres.",
+                            "characteristics": {
+                                "diameter": "472 km",
+                                "mass": "0.0000000000000000003 Tierras",
+                                "orbital_period": "1.4 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Cordelia",
+                            "type": "Satélite natural",
+                            "description": "Cordelia es uno de los satélites más pequeños de Urano y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Ofelia",
+                            "type": "Satélite natural",
+                            "description": "Ofelia es uno de los satélites más pequeños de Urano y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Bianca",
+                            "type": "Satélite natural",
+                            "description": "Bianca es uno de los satélites más pequeños de Urano y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Cressida",
+                            "type": "Satélite natural",
+                            "description": "Cressida es uno de los satélites más pequeños de Urano y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "80 km",
+                                "mass": "0.00000000000000000001 Tierras",
+                                "orbital_period": "1.1 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Neptuno",
+                "type": "Planeta gaseoso",
+                "description": "Neptuno es similar en composición a Urano y es conocido por sus intensos vientos.",
+                "characteristics": {
+                    "diameter": "49,244 km",
+                    "mass": "17.1 Tierras",
+                    "orbital_period": "165 años",
+                    "atmosphere": "Predominantemente hidrógeno, helio y metano, con vientos extremadamente rápidos.",
+                    "satellite": [
+                        {
+                            "name": "Tritón",
+                            "type": "Satélite natural",
+                            "description": "Tritón es el satélite más grande de Neptuno y tiene una órbita retrógrada, lo que sugiere un origen diferente al de la mayoría de los satélites.",
+                            "characteristics": {
+                                "diameter": "2,706 km",
+                                "mass": "0.0000000000000000005 Tierras",
+                                "orbital_period": "6 días",
+                                "atmosphere": "Compuesta principalmente por nitrógeno con trazas de metano y otros gases."
+                            }
+                        },
+                        {
+                            "name": "Nereida",
+                            "type": "Satélite natural",
+                            "description": "Nereida es uno de los satélites más grandes y distantes de Neptuno, con una órbita altamente excéntrica.",
+                            "characteristics": {
+                                "diameter": "340 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "360 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Náyade",
+                            "type": "Satélite natural",
+                            "description": "Náyade es uno de los satélites más pequeños de Neptuno y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "60 km",
+                                "mass": "0.000000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Talasa",
+                            "type": "Satélite natural",
+                            "description": "Talasa es uno de los satélites más pequeños de Neptuno y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "60 km",
+                                "mass": "0.000000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Despina",
+                            "type": "Satélite natural",
+                            "description": "Despina es uno de los satélites más pequeños de Neptuno y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "150 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "0.3 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Galatea",
+                            "type": "Satélite natural",
+                            "description": "Galatea es uno de los satélites más pequeños de Neptuno y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "160 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "0.4 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Larisa",
+                            "type": "Satélite natural",
+                            "description": "Larisa es uno de los satélites más pequeños de Neptuno y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+                            "characteristics": {
+                                "diameter": "200 km",
+                                "mass": "0.0000000000000000001 Tierras",
+                                "orbital_period": "0.5 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "dwarf_planets": [
+            {
+                "name": "Plutón",
+                "type": "Planeta enano",
+                "description": "Plutón es un mundo helado en la frontera del sistema solar.",
+                "characteristics": {
+                    "diameter": "2,377 km",
+                    "mass": "0.0025 Tierras",
+                    "orbital_period": "248 años",
+                    "atmosphere": "Compuesta por nitrógeno, metano y monóxido de carbono.",
+                    "satellite": [
+                        {
+                            "name": "Caronte",
+                            "type": "Satélite natural",
+                            "description": "Caronte es el satélite más grande de Plutón y forma un sistema binario con él.",
+                            "characteristics": {
+                                "diameter": "1,207 km",
+                                "mass": "0.0000000000000000006 Tierras",
+                                "orbital_period": "6 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Estigia",
+                            "type": "Satélite natural",
+                            "description": "Estigia es uno de los satélites más pequeños de Plutón, descubierto en 2011 por el telescopio espacial Hubble.",
+                            "characteristics": {
+                                "diameter": "10 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "20 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Nix",
+                            "type": "Satélite natural",
+                            "description": "Nix es uno de los satélites más pequeños de Plutón, descubierto en 2005 por el telescopio espacial Hubble.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "25 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Hidra",
+                            "type": "Satélite natural",
+                            "description": "Hidra es uno de los satélites más pequeños de Plutón, descubierto en 2005 por el telescopio espacial Hubble.",
+                            "characteristics": {
+                                "diameter": "40 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "38 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        },
+                        {
+                            "name": "Kerberos",
+                            "type": "Satélite natural",
+                            "description": "Kerberos es uno de los satélites más pequeños de Plutón, descubierto en 2011 por el telescopio espacial Hubble.",
+                            "characteristics": {
+                                "diameter": "10 km",
+                                "mass": "0.0000000000000000000001 Tierras",
+                                "orbital_period": "32 días",
+                                "atmosphere": "No tiene atmósfera."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Eris",
+                "type": "Planeta enano",
+                "description": "Eris es uno de los planetes enanos más grandes y está ubicado en el cinturón de Kuiper.",
+                "characteristics": {
+                    "diameter": "2,326 km",
+                    "mass": "0.0028 Tierras",
+                    "orbital_period": "558 años",
+                    "atmosphere": "Puede tener una tenue atmósfera de nitrógeno o metano.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Ceres",
+                "type": "Planeta enano",
+                "description": "Ceres es el objeto más grande en el cinturón de asteroides entre Marte y Júpiter.",
+                "characteristics": {
+                    "diameter": "945 km",
+                    "mass": "0.00016 Tierras",
+                    "orbital_period": "4.6 años",
+                    "atmosphere": "Puede tener trazas de una atmósfera débil compuesta por vapor de agua.",
+                    "satellite": []
+                }
+            }
+        ],
+        "asteroids": [
+            {
+                "name": "Vesta",
+                "type": "Asteroide",
+                "description": "Vesta es el segundo objeto más grande en el cinturón de asteroides entre Marte y Júpiter.",
+                "characteristics": {
+                    "diameter": "525 km",
+                    "mass": "0.00005 Tierras",
+                    "orbital_period": "3.6 años",
+                    "atmosphere": "No tiene atmósfera.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Pallas",
+                "type": "Asteroide",
+                "description": "Pallas es el tercer objeto más grande en el cinturón de asteroides entre Marte y Júpiter.",
+                "characteristics": {
+                    "diameter": "512 km",
+                    "mass": "0.00005 Tierras",
+                    "orbital_period": "4.6 años",
+                    "atmosphere": "No tiene atmósfera.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Hygiea",
+                "type": "Asteroide",
+                "description": "Hygiea es el cuarto objeto más grande en el cinturón de asteroides entre Marte y Júpiter.",
+                "characteristics": {
+                    "diameter": "434 km",
+                    "mass": "0.00003 Tierras",
+                    "orbital_period": "5.6 años",
+                    "atmosphere": "No tiene atmósfera.",
+                    "satellite": []
+                }
+            },
+            {
+                "name": "Interamnia",
+                "type": "Asteroide",
+                "description": "Interamnia es el quinto objeto más grande en el cinturón de asteroides entre Marte y Júpiter.",
+                "characteristics": {
+                    "diameter": "350 km",
+                    "mass": "0.00002 Tierras",
+                    "orbital_period": "5.6 años",
+                    "atmosphere": "No tiene atmósfera.",
+                    "satellite": []
+                }
+            }
+        ]
+    }
+}
