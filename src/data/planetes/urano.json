@@ -1,0 +1,289 @@
+{
+    "id": "urano",
+    "name": "Urano",
+    "type": "Planeta gaseoso",
+    "description": "Urano es similar en composición a Neptuno. La atmósfera de Urano, aunque es similar a la de Júpiter y Saturno por estar compuesta principalmente de hidrógeno y helio, contiene una proporción superior tanto de hielo como de agua, amoníaco y metano, junto con trazas de hidrocarburos. Posee la atmósfera planetaria más fría del sistema solar, con una temperatura mínima de 49 K (-224 °C). Asimismo, tiene una estructura de nubes muy compleja, acomodada por niveles, donde se cree que las nubes más bajas están compuestas de agua y las más altas de metano. En contraste, el interior de Urano se encuentra compuesto principalmente de hielo y roca.",
+    "characteristics": {
+        "orbital_distance": "2 870 658 186 km",
+        "radius": "25 559 km",
+        "volume": "6,833x10^13 km^3",
+        "diameter": "51 118 km",
+        "mass": "8,681x10^25 kg",
+        "density": "1,274 g/cm^3",
+        "gravity": "8,69 m/s^2",
+        "orbital_period": "84 años",
+        "atmosphere": "Compuesta por hidrógeno, helio y metano, lo que le da un color azul verdoso."
+    },
+    "satellite": [
+        {
+            "id": "cordelia",
+            "name": "Cordelia",
+            "type": "Satélite natural",
+            "description": "Fue descubierto por Richard J. Terrile a partir de las imágenes tomadas por la Voyager 2 el 21 de enero de 1986, y recibió la designación temporal S/1986 U 7, también se designa Urano VI. No se volvió a detectar hasta que el telescopio espacial Hubble lo observó nuevamente en 1997.",
+            "characteristics": {
+                "diameter": "40,2 km",
+                "mass": "4,4x10^16 kg"
+            }
+        },
+        {
+            "id": "ofelia",
+            "name": "Ofelia",
+            "type": "Satélite natural",
+            "description": "Fue descubierto por Richard J. Terrile a partir de las imágenes tomadas por la sonda espacial Voyager 2 el 21 de enero de 1986, y recibió la designación temporal S/1986 U 8. También se designa Urano VII. El satélite no fue detectado nuevamente hasta que el telescopio espacial Hubble lo observó nuevamente en 2003.",
+            "characteristics": {
+                "diameter": "21,4 km",
+                "mass": "5,3x10^16 kg"
+            }
+        },
+        {
+            "id": "bianca",
+            "name": "Bianca",
+            "type": "Satélite natural",
+            "description": "Bianca es un satélite natural de Urano. Fue descubierto a partir de imágenes tomadas por la sonda espacial Voyager 2 el 23 de enero de 1986, y le fue dada la designación temporal S/1986 U 9, aunque también se designa Urano VIII.",
+            "characteristics": {
+                "diameter": "44,4 km",
+                "mass": "9,2x10^16 kg"
+            }
+        },
+        {
+            "id": "cresida",
+            "name": "Crésida",
+            "type": "Satélite natural",
+            "description": "Crésida (en inglés: Cressida) es un satélite interior de Urano. Fue descubierto a partir de imágenes tomadas por la sonda espacial Voyager 2 el 9 de enero de 1986, y recibió la designación temporal S/1986 U 3.",
+            "characteristics": {
+                "diameter": "79.6 km",
+                "mass": "3x4^20 kg"
+            }
+        },
+        {
+            "id": "desdemona",
+            "name": "Desdémona",
+            "type": "Satélite natural",
+            "description": "Desdémona es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 6",
+            "characteristics": {
+                "diameter": "64 km",
+                "mass": "1x8^18 kg"
+            }
+        },
+        {
+            "id": "julieta",
+            "name": "Julieta",
+            "type": "Satélite natural",
+            "description": "Julieta es un satélite natural de Urano. Fue descubierto el 3 de enero de 1986 por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 2.",
+            "characteristics": {
+                "diameter": "94 km",
+                "mass": "5x6^18 km"
+            }
+        },
+        {
+            "id": "porcia",
+            "name": "Porcia",
+            "type": "Satélite natural",
+            "description": "Porcia es un satélite natural de Urano. Fue descubierto el 3 de enero de 1986 a través de las imágenes enviadas por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 1.",
+            "characteristics": {
+                "diameter": "135 km",
+                "mass": "1x7^18 kg"
+            }
+        },
+        {
+            "id": "rosalinda",
+            "name": "Rosalinda",
+            "type": "Satélite natural",
+            "description": "Rosalinda es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda Voyager 2 y su designación provisional fue S/1986 U 4.",
+            "characteristics": {
+                "diameter": "72 km",
+                "mass": "2x5^18 kg"
+            }
+        },
+        {
+            "id": "cupido",
+            "name": "Cupido",
+            "type": "Satélite natural",
+            "description": "Es el más pequeño de los satélites interiores de Urano con sólo 18 km de diámetro. Esta superficie y su color oscuro hizo que fuera demasiado débil para ser detectado por la sonda Voyager 2 durante su paso por Urano en 1986.",
+            "characteristics": {
+                "diameter": "17,8 km",
+                "mass": "3,8x10^15 kg"
+            }
+        },
+        {
+            "id": "belinda",
+            "name": "Belinda",
+            "type": "Satélite natural",
+            "description": "Belinda es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda Voyager 2 y su designación provisional fue S/1986 U 5.",
+            "characteristics": {
+                "diameter": "81 km",
+                "mass": "3x6^18 kg"
+            }
+        },
+        {
+            "id": "perdita",
+            "name": "Perdita",
+            "type": "Satélite natural",
+            "description": "Perdita orbita entre Belinda y Puck. Las observaciones del Hubble demuestran que no sigue directamente las Leyes de Kepler en su movimiento alrededor de Urano. En cambio está claramente atrapado en una resonancia orbital de 43:44 con la cercana Belinda.",
+            "characteristics": {
+                "diameter": "20 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "puck",
+            "name": "Puck",
+            "type": "Satélite natural",
+            "description": "Puck estaba próximo a Miranda cuando fue descubierto, por lo que se pudo programar la sonda para que parte del tiempo de observación a este satélite se dedicara a aquel, siendo el único objeto descubierto por la Voyager 2 que se conoce con detalle.",
+            "characteristics": {
+                "diameter": "160 km",
+                "mass": "2,8939x10^18 kg"
+            }
+        },
+        {
+            "id": "mab",
+            "name": "Mab",
+            "type": "Satélite natural",
+            "description": "Mab está fuertemente perturbado. El origen de esta perturbación todavía es confuso, pero se cree que es debido a alguno de los satélites que orbitan cerca de él. La órbita de Mab se encuentra a la misma distancia de Urano que R/2003 U 1, un anillo descubierto recientemente.",
+            "characteristics": {
+                "diameter": "24,8 km",
+                "mass": "1x10^16 kg"
+            }
+        },
+        {
+            "id": "miranda",
+            "name": "Miranda",
+            "type": "Satélite natural",
+            "description": "Miranda, también designado como Urano V, es el menor de los cinco satélites principales del planeta Urano y el último en ser descubierto hasta el sobrevuelo de Urano por la sonda espacial Voyager 2. Descubierto por Gerard Kuiper el 16 de febrero de 1948.",
+            "characteristics": {
+                "diameter": "472 km",
+                "mass": "6,59x10^19 kg"
+            }
+        },
+        {
+            "id": "ariel",
+            "name": "Ariel",
+            "type": "Satélite natural",
+            "description": "Ariel es el cuarto satélite más grande de Urano y el segundo en proximidad de los satélites principales. Se conoce el 35 % de la superficie del satélite por el sobrevuelo de la sonda Voyager 2 en 1986, el único acercamiento al sistema uraniano hasta la fecha. Es el decimocuarto satélite en tamaño del sistema solar.",
+            "characteristics": {
+                "diameter": "1157,8 km",
+                "mass": "1,35x10^21 kg"
+            }
+        },
+        {
+            "id": "umbriel",
+            "name": "Umbriel",
+            "type": "Satélite natural",
+            "description": "Está constituido principalmente por hielo con una parte sustancial de roca y su interior puede estar diferenciado en un núcleo rocoso y un manto de hielo. La superficie es la más oscura de los satélites principales de Urano y parece haber sido esculpida básicamente por impactos. Sin embargo, la presencia de cañones sugiere que ha sufrido tempranos procesos endógenos que provocaron el rejuvenecimiento superficial y borraron los terrenos más antiguos.",
+            "characteristics": {
+                "diameter": "1172 km",
+                "mass": "11,72x10^20 kg"
+            }
+        },
+        {
+            "id": "titania",
+            "name": "Titania",
+            "type": "Satélite natural",
+            "description": "Titania está compuesto de partes aproximadamente iguales de hielo y roca que están probablemente diferenciados en un núcleo rocoso y un manto de hielo. Una capa de agua líquida puede que esté presente en el límite entre el núcleo y el manto. La superficie de Titania, que es oscura y de color ligeramente rojizo, parece que ha sido modelada tanto por impactos como por procesos endógenos.",
+            "characteristics": {
+                "diameter": "1,578 km",
+                "mass": "3,49x10^21 kg"
+            }
+        },
+        {
+            "id": "oberon",
+            "name": "Oberon",
+            "type": "Satélite natural",
+            "description": "Oberón está compuesto de partes aproximadamente iguales de hielo y roca que están probablemente diferenciados en un núcleo rocoso y un manto de hielo. Una capa de agua líquida puede que esté presente en el límite entre el núcleo y el manto. La superficie de Oberón, que es oscura y de color ligeramente rojizo.",
+            "characteristics": {
+                "diameter": "1576,8 km",
+                "mass": "3,527x10^21 kg"
+            }
+        },
+        {
+            "id": "francisco",
+            "name": "Francisco",
+            "type": "Satélite natural",
+            "description": "Francisco, también denominado Urano XXII, es el más interior de los satélites irregulares de Urano.",
+            "characteristics": {
+                "diameter": "22 km",
+                "mass": "1,4x10^15 kg"
+            }
+        },
+        {
+            "id": "caliban",
+            "name": "Calibán",
+            "type": "Satélite natural",
+            "description": "Calibán és el segundo mayor satélite retrógrado irregular de Urano. Fue descubierto el 6 de septiembre de 1997 por Brett J. Gladman, Philip D. Nicholson, Joseph A. Burns, y John J. Kavelaars utilizando el telescopio Hale junto a Sicorax y su designación provisional fue S/1997 U 1.",
+            "characteristics": {
+                "diameter": "72 km",
+                "mass": "2x5^17 kg"
+            }
+        },
+        {
+            "id": "stephano",
+            "name": "Stephano",
+            "type": "Satélite natural",
+            "description": "Stefano es uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por Brett J. Gladman y su equipo, y su designación provisional fue S/1999 U 2.",
+            "characteristics": {
+                "diameter": "32 km",
+                "mass": "2x2^16 kg"
+            }
+        },
+        {
+            "id": "trinculo",
+            "name": "Trínculo",
+            "type": "Satélite natural",
+            "description": "Trínculo es un satélite irregular retrógrado del planeta Urano. Fue descubierto el 13 de agosto de 2001 por Holman, et al, y recibió la designación provisional de S/2001 U 1",
+            "characteristics": {
+                "diameter": "18 km",
+                "mass": "1x10^15 kg"
+            }
+        },
+        {
+            "id": "sycorax",
+            "name": "Sycorax",
+            "type": "Satélite natural",
+            "description": "Sicorax es el satélite natural irregular y retrógrado mayor de Urano. Fue descubierto el 6 de septiembre de 1997 por Brett J. Gladman, Philip D. Nicholson, Joseph A. Burns, y John J. Kavelaars conjuntamente con Caliban y se le asignó temporalmente la designación S/1997 U 2.",
+            "characteristics": {
+                "diameter": "150 km",
+                "mass": "2x3^18 kg"
+            }
+        },
+        {
+            "id": "margarita",
+            "name": "Margarita",
+            "type": "Satélite natural",
+            "description": "Margarita es el único satélite irregular no retrógrado de Urano. Fue descubierto el 29 de agosto de 2003 por Scott S. Sheppard y David C. Jewitt, y su designación provisional fue S/2003 U 3.",
+            "characteristics": {
+                "diameter": "20 km",
+                "mass": "5,4x10^15 kg"
+            }
+        },
+        {
+            "id": "prospero",
+            "name": "Próspero",
+            "type": "Satélite natural",
+            "description": "Próspero es uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por Matthew J. Holman con su equipo, y su designación provisional fue S/1999 U 3.",
+            "characteristics": {
+                "diameter": "50 km",
+                "mass": "8x5^16 kg"
+            }
+        },
+        {
+            "id": "setebos",
+            "name": "Setebos",
+            "type": "Satélite natural",
+            "description": "Setebos és uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por John J. Kavelaars con su equipo, y su designación provisional fue S/1999 U 1.",
+            "characteristics": {
+                "diameter": "48 km",
+                "mass": "7x5^16 kg"
+            }
+        },
+        {
+            "id": "ferdinand",
+            "name": "Ferdinand",
+            "type": "Satélite natural",
+            "description": "Ferdinando es el satélite más lejano de Urano, muestra una órbita retrógrada moderadamente inclinada y de alta excentricidad.",
+            "characteristics": {
+                "diameter": "21 km",
+                "mass": "5x4^18 kg"
+            }
+        }
+    ]
+}

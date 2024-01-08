@@ -1,0 +1,20 @@
+{
+    "id": "venus",
+    "name": "Venus",
+    "type": "Planeta terrestre",
+    "description": "Venus es el segundo planeta del sistema solar. Pese a situarse más lejos del Sol que Mercurio, Venus posee la atmósfera más caliente del sistema solar; esto se debe a que está principalmente compuesta por gases de efecto invernadero, como el dióxido de carbono, atrapando mucho más calor del Sol. Actualmente carece de agua líquida y sus condiciones en superficie se consideran incompatibles con la vida conocida.",
+    "characteristics": {
+        "orbital_distance": "108,209,475 km",
+        "radius": "6,051.8 km",
+        "volume": "9.2843 x 10^11 km^3",
+        "diameter": "12,104 km",
+        "mass": "4.867 x 10^24 kg (0,815 Tierras)",
+        "density": "5.243 g/cm^3",
+        "gravity": "8.87 m/s^2",
+        "day": "243 días terrestre",
+        "orbital_period": "225 días",
+        "atmosphere": "Predominantemente dióxido de carbono, con densas nubes de ácido sulfúrico.",
+        "temperature": "462 °C"
+    },
+    "satellite": []
+}

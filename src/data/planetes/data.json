@@ -1,0 +1,34 @@
+[
+    {
+        "id": "mercurio",
+        "name": "Mercurio"
+    },
+    {
+        "id": "venus",
+        "name": "Venus"
+    },
+    {
+        "id": "tierra",
+        "name": "Tierra"
+    },
+    {
+        "id": "marte",
+        "name": "Marte"
+    },
+    {
+        "id": "jupiter",
+        "name": "Jupiter"
+    },
+    {
+        "id": "saturno",
+        "name": "Saturno"
+    },
+    {
+        "id": "urano",
+        "name": "Urano"
+    },
+    {
+        "id": "neptuno",
+        "name": "Neptuno"
+    }
+]

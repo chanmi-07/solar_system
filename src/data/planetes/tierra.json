@@ -1,0 +1,31 @@
+{
+    "id": "tierra",
+    "name": "Tierra",
+    "type": "Planeta terrestre",
+    "description": "La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil millones de años después. Es actualmente el único cuerpo astronómico donde se conoce la existencia de vida. La atmósfera y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta, favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida en la Tierra",
+    "characteristics": {
+        "orbital_distance": "149,598,262 km",
+        "radius": "6,378.1 km",
+        "volume": "1.08321 x 10^12 km^3",
+        "diameter": "12,742 km",
+        "mass": "5.972 x 10^24 kg",
+        "density": "5.514 g/cm^3",
+        "gravity": "9.807 m/s^2",
+        "day": "23 horas, 56 minutos y 4 segundos",
+        "orbital_period": "365 días",
+        "atmosphere": "Compuesta principalmente por nitrógeno y oxígeno, con trazas de otros gases.",
+        "temperature": "Entre -89 °C y 57 °C"
+    },
+    "satellite": [
+        {
+            "id": "luna",
+            "name": "Luna",
+            "type": "Satélite natural planetario",
+            "description": "La Luna es el único satélite natural de la Tierra. Se encuentra en relación síncrona con la Tierra, siempre mostrando la misma cara hacia el planeta. El hemisferio visible está marcado con oscuros mares lunares de origen volcánico entre las brillantes montañas antiguas y los destacados astroblemas.",
+            "characteristics": {
+                "diameter": "3,474 km",
+                "mass": "7.347 x 10^22 kg"
+            }
+        }
+    ]
+}

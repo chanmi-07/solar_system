@@ -1,0 +1,710 @@
+{
+    "id": "jupiter",
+    "name": "Júpiter",
+    "type": "Planeta gaseoso",
+    "description": "Júpiter es un cuerpo masivo gaseoso, formado principalmente por hidrógeno y helio, carente de una superficie interior definida. Entre los detalles atmosféricos es notable la Gran Mancha Roja (un enorme anticiclón situado en las latitudes tropicales del hemisferio sur), la estructura de nubes en bandas oscuras y zonas brillantes, y la dinámica atmosférica global determinada por intensos vientos zonales alternantes en latitud y con velocidades de hasta 140 m/s (504 km/h).",
+    "characteristics": {
+        "orbital_distance": "778 340 821 km",
+        "radius": "71,492 km",
+        "volume": "1.43128 x 10^15 km^3",
+        "diameter": "139,820 km",
+        "mass": "1.898 x 10^27 kg (317,8 Tierras)",
+        "density": "1.326 g/cm^3",
+        "gravity": "24.79 m/s^2",
+        "day": "9 horas y 55 minutos",
+        "orbital_period": "12 años",
+        "atmosphere": "Predominantemente hidrógeno y helio, con nubes de amoníaco y metano."
+    },
+    "satellite": [
+        {
+            "id": "metis",
+            "name": "Metis",
+            "type": "Satélite interno de Júpiter",
+            "description": "Metis está en órbita anclada por las mareas de Júpiter, y su forma es muy asimétrica: su diámetro mayor es casi del doble de largo que el menor. Su órbita se encuentra dentro del anillo principal de Júpiter, y se cree que es un contribuyente importante al material de los anillos.",
+            "characteristics": {
+                "diameter": "43 km",
+                "mass": "3,6 x 10^16 kg (0,000005 Tierras)"
+            }
+        },
+        {
+            "id": "adrastea",
+            "name": "Adrastea",
+            "type": "Satélite interno de Júpiter",
+            "description": "Adrastea es el segundo satélite de Júpiter en orden de distancia al planeta y es el más pequeño de los cuatro satélites interiores. Fue descubierto en las fotografías tomadas por la sonda espacial Voyager 2 en 1979, y posteriormente, en 1983, tomó oficialmente el nombre de la mítica Adrastea, hija de Meliseo y de Ananké.",
+            "characteristics": {
+                "diameter": "20 km",
+                "mass": "1,9 x 10^16 kg (0,0000003 Tierras)"
+            }
+        },
+        {
+            "id": "amaltea",
+            "name": "Amaltea",
+            "type": "Satélite interno",
+            "description": "Amaltea es el tercer satélite de Júpiter en orden de distancia, y el miembro principal del Grupo de Amaltea. Fue descubierto el 9 de septiembre de 1892 por el astrónomo estadounidense E. E. Barnard desde el observatorio Lick de la Universidad de California.",
+            "characteristics": {
+                "diameter": "262 km",
+                "mass": "2,1 x 10^18 kg (0,0003 Tierras)"
+            }
+        },
+        {
+            "id": "tebe",
+            "name": "Tebe",
+            "type": "Satélite interno",
+            "description": "Tiene forma irregular y color rojizo. Los principales modelos geológicos indican que está formado por hielo de agua poroso con cantidades desconocidas de otras sustancias, al igual que Amaltea. Entre sus características superficiales se incluyen grandes cráteres y altas montañas.",
+            "characteristics": {
+                "volume": "0.02 x 10^3 km^3",
+                "diameter": "98,6 km"
+            }
+        },
+        {
+            "id": "io",
+            "name": "Ío",
+            "type": "Satélite galileano",
+            "description": "Ío es el satélite galileano más cercano a Júpiter. Es el tercer satélite por su tamaño, tiene la más alta densidad entre todos los satélites y, en proporción, la menor cantidad de agua entre todos los objetos conocidos del sistema solar. Fue descubierto por Galileo Galilei en 1610.",
+            "characteristics": {
+                "diameter": "3 643,2 km",
+                "mass": "8.93 x 10^22 kg (0,015 Tierras)"
+            }
+        },
+        {
+            "id": "europa",
+            "name": "Europa",
+            "type": "Satélite galileano",
+            "description": "Europa está compuesto principalmente por silicatos, tiene una corteza de hielo de agua y un probable núcleo de hierro y níquel. Cuenta con una tenue atmósfera compuesta de oxígeno, entre otros gases. Su superficie está estriada por grietas y rayas, mientras que los cráteres son relativamente raros. Tiene la superficie más lisa de cualquier objeto conocido del sistema solar.",
+            "characteristics": {
+                "diameter": "3 121.6 km",
+                "mass": "4.8 x 10^22 kg (0,008 Tierras)"
+            }
+        },
+        {
+            "id": "ganimedes",
+            "name": "Ganímedes",
+            "type": "Satélite galileano",
+            "description": "Ganímedes se compone de silicatos y hielo de agua en cantidades aproximadamente iguales. Tiene un núcleo fundido rico en hierro y un océano interno que puede poseer más agua que todos los océanos de la Tierra juntos. Su superficie está constituida por regiones oscuras y claras. Las regiones oscuras, saturadas de cráteres de impacto, cubren alrededor de un tercio del satélite. El resto de la superficie está ocupado por regiones claras, áreas cortadas por amplios surcos y crestas.",
+            "characteristics": {
+                "diameter": "5 262.4 km",
+                "mass": "1.4819 x 10^23 kg (0,025 Tierras)"
+            }
+        },
+        {
+            "id": "calisto",
+            "name": "Calisto",
+            "type": "Satélite galileano",
+            "description": "Está compuesto aproximadamente por partes iguales de roca y hielo, con una densidad media de unos 1,83 g/cm³. Los componentes detectados mediante la firma espectral de la superficie incluyen hielo, dióxido de carbono, silicatos y compuestos orgánicos. La investigación de la sonda espacial Galileo reveló que Calisto tiene un núcleo, compuesto principalmente de silicatos y hierro, y un océano de agua salada bajo la superficie.",
+            "characteristics": {
+                "diameter": "4 821.6 km",
+                "mass": "1.0759 x 10^23 kg (0,018 Tierras)"
+            }
+        },
+        {
+            "id": "temisto",
+            "name": "Temisto",
+            "type": "Satélite irregular",
+            "description": "Este satélite irregular parece ser un caso intermedio (y único) en distancia (más de 7.000.000 km) e inclinación (43°) entre las lunas galileanas y el Grupo de Himalia",
+            "characteristics": {
+                "diameter": "8 km",
+                "mass": "6,9x10^14 kg (0,0000001 Tierras)"
+            }
+        },
+        {
+            "id": "leda",
+            "name": "Leda",
+            "type": "Satélite del grupo de Himalia",
+            "description": "Leda es un pequeño satélite irregular de Júpiter, y orbita alrededor de este en una órbita prógrada en casi 239 días. Fue descubierto por Charles Thomas Kowal desde el observatorio de Monte Palomar en California el 14 de septiembre de 1974 después de tres noches de observaciones fotográficas.",
+            "characteristics": {
+                "diameter": "20 km",
+                "mass": "1,1x10^16 kg (0,0000003 Tierras)"
+            }
+        },
+        {
+            "id": "himalia",
+            "name": "Himalia",
+            "type": "Satélite del grupo de Himalia",
+            "description": "Dado que su órbita es similar a la de otros satélites, se piensa que Himalia es el miembro mayor de una familia de satélites progrados e irregulares de Júpiter",
+            "characteristics": {
+                "diameter": "170 km",
+                "mass": "6,7x10^18 kg (0,0006 Tierras)"
+            }
+        },
+        {
+            "id": "lisitea",
+            "name": "Lisitea",
+            "type": "Satélite del grupo de Himalia",
+            "description": "El satélite Lisitea pertenece al grupo de Himalia, cinco lunas con órbitas programadas similares, todas con una inclinación alrededor de 27.5°.",
+            "characteristics": {
+                "diameter": "36 km",
+                "mass": "6,3x10^16 kg (0,0006 Tierras)"
+            }
+        },
+        {
+            "id": "elara",
+            "name": "Elara",
+            "type": "Satélite del grupo de Himalia",
+            "description": "Elara es un satélite natural de Júpiter. Fue descubierto por Charles Dillon Perrine desde el Observatorio Lick, en California, en 1905",
+            "characteristics": {
+                "diameter": "86 km",
+                "mass": "8,7x10^17 kg (0,0001 Tierras)"
+            }
+        },
+        {
+            "id": "dia",
+            "name": "Dia",
+            "type": "Satélite del grupo de Himalia",
+            "description": "Dia, conocido previamente como S/2000 J 11, es un satélite irregular de Júpiter, descubierto por un grupo de astrónomos de la Universidad de Hawái, encabezado por Scott Sheppard en el año 2000.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "6,3x10^14 kg (0,0000001 Tierras)"
+            }
+        },
+        {
+            "id": "carpo",
+            "name": "Carpo",
+            "type": "Satélite irregular",
+            "description": "Carpo (también denominada J XLVI) es una luna de Júpiter descubierta en 2003 por un grupo de astrónomos de la Universidad de Hawái encabezados por Scott S. Sheppard, y denominada temporalmente S/2003 J 20.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "4,5x10^13 kg (0,00000001 Tierras)"
+            }
+        },
+        {
+            "id": "s2003j12",
+            "name": "S/2003 J 12",
+            "type": "Satélite irregular",
+            "description": "Es el satélite más interior de los satélites retrógrados irregulares de Júpiter y no parece ser propia de los otros grupos.",
+            "characteristics": {
+                "diameter": "1 km",
+                "mass": "1,5x10^12 kg (0,00000001 Tierras)"
+            }
+        },
+        {
+            "id": "euporia",
+            "name": "Euporia",
+            "type": "Satélite del grupo Ananké",
+            "description": "Es el miembro más interior del grupo de Ananké, satélites pequeños e irregulares de Júpiter con una órbita retrógrada. Se hallan situados desde unos 19,3 a unos 22,7 millones de km de Júpiter, con inclinaciones que rondan los 150°.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "s2003j3",
+            "name": "S/2003 J 3",
+            "type": "Satélite del grupo Ananké",
+            "description": "S/2003 J 3 es un satélite irregular retrógrado de Júpiter. Fue hallado por un grupo de astrónomos de la Universidad de Hawái liderado por Scott S. Sheppard el 4 de marzo de 2003.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "2600 kg"
+            }
+        },
+        {
+            "id": "s2003j18",
+            "name": "S/2003 J 18",
+            "type": "Satélite del grupo Ananké",
+            "description": "S/2003 J 18 es un satélite irregular retrógrado de Júpiter. Fue hallado por un grupo de astrónomos liderados por Brett J. Gladman el 11 de abril de 2003.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "ortosia",
+            "name": "Ortosia",
+            "type": "Satélite del grupo Ananké",
+            "description": "Ortosia o Júpiter XXXV es un satélite irregular de Júpiter. Fue descubierto por un grupo de astrónomos de la Universidad de Hawái dirigido por Scott S. Sheppard en 2001.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "euante",
+            "name": "Euante",
+            "type": "Satélite del grupo Ananké",
+            "description": "Euante o Júpiter XXXIII es un satélite irregular y retrógrado de Júpiter. Descubierto por un equipo de astrónomos de la Universidad de Hawái dirigido por Scott S. Sheppard en 2001.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "45 petagramos"
+            }
+        },
+        {
+            "id": "harpálice",
+            "name": "Harpálice",
+            "type": "Satélite del grupo Ananké",
+            "description": "Pertenece al grupo de Ananké, asteroides que en un pasado fueron capturados por la gravedad de Júpiter y convertidas en satélites. Tiene cerca de 4 km de diámetro y una apariencia grisácea, similar a los asteroides de tipo C",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "1.16x10^14 Kg"
+            }
+        },
+        {
+            "id": "praxidice",
+            "name": "Praxídice",
+            "type": "Satélite del grupo Ananké",
+            "description": "Praxídice orbita alrededor del gigante gaseoso a una distancia media de 20,824 millones de km en 613,904 días, con una inclinación de 144° respecto de la eclíptica (143° del ecuador de Júpiter), en un movimiento retrógrado y con una excentricidad de 0,1840.",
+            "characteristics": {
+                "diameter": "14 km",
+                "mass": "430 petagramos"
+            }
+        },
+        {
+            "id": "tione",
+            "name": "Tione",
+            "type": "Satélite del grupo Ananké",
+            "description": "Tione conocido como S/2000 J 2 es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturad.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "90 petagramos"
+            }
+        },
+        {
+            "id": "s2003j16",
+            "name": "S/2003 J 16",
+            "type": "Satélite del grupo Ananké",
+            "description": "S/2003 J 16 es un satélite irregular retrógrado de Júpiter. Fue descubierto por un grupo de astrónomos dirigidos por Brett J. Gladman en 2003.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 teragramos"
+            }
+        },
+        {
+            "id": "yocasta",
+            "name": "Yocasta",
+            "type": "Satélite del grupo Ananké",
+            "description": "Yocasta orbita a Júpiter a una distancia media de 20,723 millones de km en 609,427 días, en una inclinación orbital de 147° respecto a la eclíptica del planeta, con una excentricidad de 0,2874.",
+            "characteristics": {
+                "diameter": "5,2 km",
+                "mass": "1,9x1014 kg"
+            }
+        },
+        {
+            "id": "mnemea",
+            "name": "Mnemea",
+            "type": "Satélite del grupo Ananké",
+            "description": "Mnemea tiene aproximadamente 2 km de diámetro y orbita a Júpiter a una distancia media de 21,427 millones de km en 640,769 días, con una inclinación de 149° de la eclíptica (148° del ecuador de Júpiter) con una excentricidad de 0,2214.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "hermipe",
+            "name": "Hermipe",
+            "type": "Satélite del grupo Ananké",
+            "description": "Hermipé tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 21,182 millones de km en 629,809 días, a una inclinación de 151° con respecto a la eclíptica (149° del ecuador de Júpiter), con una excentricidad de 0,2290.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "90 petagramos"
+            }
+        },
+        {
+            "id": "telxinoe",
+            "name": "Telxínoe",
+            "type": "Satélite del grupo Ananké",
+            "description": "Telxínoe tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 20,454 millones de km en 597.607 días, a una inclinación de 151° con respecto a la eclíptica (153° al ecuador de Júpiter), con una excentricidad de 0,2685.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "helike",
+            "name": "Heliké",
+            "type": "Satélite del grupo Ananké",
+            "description": "Heliké",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "90 petagramos"
+            }
+        },
+        {
+            "id": "ananké",
+            "name": "Ananqué",
+            "type": "Satélite del grupo Ananké",
+            "description": "En el espectro visible, Ananqué aparece neutral a la luz roja, sus índices de color son B-V=0,90 V-R=0,38. Mientras que su espectro infrarrojo es similar al de los asteroides de tipo-P pero con una posible indicación de agua.",
+            "characteristics": {
+                "diameter": "28 km",
+                "mass": "30 hexagramos"
+            }
+        },
+        {
+            "id": "s2003j15",
+            "name": "S/2003 J 15",
+            "type": "Satélite del grupo Ananké",
+            "description": "S/2003 J 15 tiene sobre 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,721 millones de km en 699,676 días terrestres, con una inclinación de 142° con respecto al la eclíptica (142° del ecuador de Júpiter), en un sentido retrógrado y con una excentricidad orbital de 0,0932.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "arce",
+            "name": "Arce",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Arce tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,717 millones de km en 746,185 días, a una inclinación de 165º con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "45 petagramos"
+            }
+        },
+        {
+            "id": "herse",
+            "name": "Herse",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "S/2003 J 17 tiene cerca de 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,134 millones de km en 672,752 días, con una inclinación de 162° respecto de la eclíptica (161° del ecuador de Júpiter), en dirección retrógrada y excentricidad orbital de 0,2379.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "pasitea",
+            "name": "Pasítea",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Pasítea tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,307 Millones de km en 726,933 días, a una inclinación de 166° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3289.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "s2003j10",
+            "name": "S/2003 J 10",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "S/2003 J 10 tiene cerca de 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,307 millones de km en 726,933 días, con una inclinación de 166° respecto de la eclíptica (164° del ecuador de Júpiter), en dirección retrógrada y excentricidad orbital de 0,3289.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "caldona",
+            "name": "Caldona",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Caldona tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,713 millones de km. en 699,327 días, a una inclinación de 164° con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "75 petagramos"
+            }
+        },
+        {
+            "id": "isonoe",
+            "name": "Isonoé",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Isonoé tiene unos 3,8 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,833 Millones de km en 751.647 días, a una inclinación de 166 º a la eclíptica (169 ° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.166.",
+            "characteristics": {
+                "diameter": "3,8 km",
+                "mass": "7,5x10^13 kg"
+            }
+        },
+        {
+            "id": "erinome",
+            "name": "Erinome",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Erínome tiene unos 3,2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,986 Millones de km en 711.965 días, a una inclinación de 164° respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+            "characteristics": {
+                "diameter": "3,2 km",
+                "mass": "45 petagramos"
+            }
+        },
+        {
+            "id": "cale",
+            "name": "Calé",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Calé tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,409 Millones de km en 685.324 días, a una inclinación de 165° a la eclíptica (166° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2011.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "aitne",
+            "name": "Aitné",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Aitné tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,285 Millones de km en 679.641 días, a una inclinación de 166° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,393.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "45 petagramos"
+            }
+        },
+        {
+            "id": "taigete",
+            "name": "Táigete",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Táigete tiene unos 5 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,439 Millones de km en 686,675 días, a una inclinación de 165° a la eclíptica (163° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+            "characteristics": {
+                "diameter": "5 km",
+                "mass": "160 petagramos"
+            }
+        },
+        {
+            "id": "s2003j9",
+            "name": "S/2003 J 9",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "S/2003 J 9 tiene alrededor de 1 kilómetro de diámetro, y órbita a Júpiter a una distancia media de 23,858 millones de km en 752.839 días, a una inclinación de 165° a la eclíptica (165° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,276.",
+            "characteristics": {
+                "diameter": "1 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "s2003j5",
+            "name": "S/2003 J 5",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "S/2003 J 5 tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,974 Millones de km en 758.341 días, a una inclinación de 166° a la eclíptica (167° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,307.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "s2003j19",
+            "name": "S/2003 J 19",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "S/2003 J 19 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,709 Millones de km en 699.125 días, a una inclinación de 166° a la eclíptica (167° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,1961.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "eukalade",
+            "name": "Eukélade",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Eukélade tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,484 millones de km. en 735,200 días, a una inclinación de 164° con respecto a la eclíptica (165° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2829.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "90 petagramos"
+            }
+        },
+        {
+            "id": "carme",
+            "name": "Carme",
+            "type": "Satélite retrógrado irregular del grupo Carmé",
+            "description": "Con sus 40 kilómetros medios de radio, tarda 692 días terrestres en dar una vuelta al planeta gaseoso, del cual dista a unos 22,6 millones de kilómetros aproximadamente. La composición en su superficie es mayoritariamente de tierra rica en carbono y hielo.",
+            "characteristics": {
+                "diameter": "48 km",
+                "mass": "1.3x10^17 kg"
+            }
+        },
+        {
+            "id": "esponde",
+            "name": "Espondé",
+            "type": "Satélite natural",
+            "description": "Espondé tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,253 millones de km. en 771.604 días, a una inclinación de 154° con respecto a la eclíptica (156° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,443.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "euridome",
+            "name": "Eurídome",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Eurídome tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,231 Millones de km en 723.359 días, a una inclinación de 149 º a la eclíptica (147 ° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.3770.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "4,5x1013 kg"
+            }
+        },
+        {
+            "id": "megaclite",
+            "name": "Megaclite",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Megaclite tiene cerca de 5,4 kilómetros de diámetro, y se mueve en órbita alrededor de Júpiter en un promedio de 23.806.000 kilómetros. Tiene una inclinación de 150° con respecto a la elíptica (148° del ecuador de Júpiter), con una excentricidad de 0,308.",
+            "characteristics": {
+                "diameter": "5,4 km",
+                "mass": "2,1x10^14 kg"
+            }
+        },
+        {
+            "id": "s2003j23",
+            "name": "S/2003 J 23",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "S/2003 J 23 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,740 millones de km en 700.538 días, a una inclinación de 149° a la eclíptica (149° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3931.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "2600 kg"
+            }
+        },
+        {
+            "id": "calice",
+            "name": "Cálice",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Cálice tiene unos 5,2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,181 millones de km en 721,021 días, con una inclinación de 166 ° a la eclíptica (165 ° al ecuador de Júpiter), con una dirección retrógrada y excentricidad de 0,2140.",
+            "characteristics": {
+                "diameter": "5,2 km",
+                "mass": "190 petagramos"
+            }
+        },
+        {
+            "id": "pasifae",
+            "name": "Pasífae",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Fue descubierto en una placa tomada en el Real Observatorio de Greenwich en la noche del 28 de febrero de 1908, pero se encuentra ya en una inspección de placas de la entidad del 27 de enero.",
+            "characteristics": {
+                "diameter": "58 km",
+                "mass": "300 hexagramos"
+            }
+        },
+        {
+            "id": "s2003j4",
+            "name": "S/2003 J 4",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "S/2003 J 4 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,571 millones de km en 739.294 días, a una inclinación de 147° a la eclíptica (149° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3931.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "sinope",
+            "name": "Sinope",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Sinope era el satélite más ultraperiférico conocido de Júpiter, hasta el descubrimiento de Megaclite en 2000.",
+            "characteristics": {
+                "diameter": "19 km",
+                "mass": "7,5x10^16kg"
+            }
+        },
+        {
+            "id": "hegemone",
+            "name": "Hegémone",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Hegémone tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,703 Millones de km en 745.500 días, a una inclinación de 153° a la eclíptica (151° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,4077.",
+            "characteristics": {
+                "diameter": "3 km",
+                "mass": "45 petagramos"
+            }
+        },
+        {
+            "id": "cilene",
+            "name": "Cilene",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Cilene tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,396 millones de km. en 731,099 días, a una inclinación de 140° con respecto a la eclíptica (140° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,4116.",
+            "characteristics": {
+                "diameter": "5 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "aedea",
+            "name": "Aedea",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Aedea tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,044 millones de km en 714,657 días, a una inclinación de 160º con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.4311.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "8,7x10^13 kg"
+            }
+        },
+        {
+            "id": "kore",
+            "name": "Kore",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Kore tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,239 millones de km en 723.720 días, con una inclinación de 141° a la eclíptica (139° al ecuador de Júpiter), en dirección retrógrada y con una excentricidad de 0,2462.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "kallichore",
+            "name": "Kallichore",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Kallichore tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,112 Millones de km en 717.806 días, a una inclinación de 165° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2042.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "autonoe",
+            "name": "Autónoe",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Autónoe tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,264 millones de km en 772,168 días, a una inclinación de 150° con respecto a la eclíptica (151° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,369.",
+            "characteristics": {
+                "diameter": "4 km",
+                "mass": "90 petagramos"
+            }
+        },
+        {
+            "id": "calirroe",
+            "name": "Calírroe",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "Calírroe tiene alrededor de 8,6 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,3560 millones de kilómetros, tomándole una rotación 776,5430 días, con una inclinación de 141 ° a la eclíptica (140 ° del ecuador de Júpiter), En una dirección retrógrada y con una excentricidad de 0.264.",
+            "characteristics": {
+                "diameter": "5 km",
+                "mass": "8,7^1014 kg"
+            }
+        },
+        {
+            "id": "s2003j2",
+            "name": "S/2003 J 2",
+            "type": "Satélite natural",
+            "description": "S/2003 J 2 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 29,54 millones de kilómetros en 980 días, a una inclinación de 154° a la eclíptica (152 ° al ecuador de Júpiter) y con una excentricidad de 0,2255.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "2010j1",
+            "name": "S/2010 J 1",
+            "type": "Satélite natural",
+            "description": "S/2010 J 1 orbita a Júpiter a una distancia media de 14 570 000 millas (23.45 millones de km), tardando 2,02 años para completar una vuelta alrededor de Júpiter. S/2010 J 1 tiene un diámetro de aproximadamente 1,8 millas (3 kilómetros) de ancho.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "s2010j2",
+            "name": "S/2010 J 2",
+            "type": "Satélite natural",
+            "description": "S/2010 J 2 tarda 1,69 años en orbitar alrededor de Júpiter, y su distancia media es de 13 060 000 millas (21,01 millones de kilómetros). S/2010 J 2 tiene un diámetro de aproximadamente 1 kilómetro, siendo etiquetado como el satélite natural más pequeño conocido en el sistema solar que se descubrió desde la Tierra.",
+            "characteristics": {
+                "diameter": "1 km",
+                "mass": "69 petagramos"
+            }
+        },
+        {
+            "id": "s2011j1",
+            "name": "S/2011 J 1",
+            "type": "Satélite natural",
+            "description": "S/2011 J 1 es un satélite irregular retrógrado de Júpiter. Fue hallado por Scott S. Sheppard el 27 de septiembre de 2011.",
+            "characteristics": {
+                "diameter": "1 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "s2011j2",
+            "name": "S/2011 J 2",
+            "type": "Satélite natural",
+            "description": "S/2011 J 2 es un satélite irregular retrógrado de Júpiter. Fue hallado por Scott S. Sheppard el 27 de septiembre de 2011.",
+            "characteristics": {
+                "diameter": "0,5 km",
+                "mass": "15 petagramos"
+            }
+        },
+        {
+            "id": "s2016j1",
+            "name": "S/2016 J 1",
+            "type": "Satélite natural",
+            "description": "S/2016 J1, es un satélite natural externo de Júpiter. Fue descubierto por Scott S. Sheppard en 2016, pero no fue anunciado hasta el 2 de junio de 2017 a través del Centro de Planetas Menores. Tiene aproximadamente 1 kilómetro de diámetro.",
+            "characteristics": {
+                "diameter": "1 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "s2017j1",
+            "name": "S/2017 J 1",
+            "type": "Satélite retrógrado irregular del grupo Pasífae",
+            "description": "S/2017 J 1 es un satélite natural externo de Júpiter. Se informó el 5 de junio de 2017 a través del Centro de Planetas Menores. Se cree que tiene unos 2 km de diámetro.",
+            "characteristics": {
+                "diameter": "2 km",
+                "mass": "--"
+            }
+        }
+    ]
+}

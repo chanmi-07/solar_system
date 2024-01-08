@@ -1,0 +1,20 @@
+{
+    "id": "mercurio",
+    "name": "Mercurio",
+    "type": "Planeta terrestre",
+    "description": "Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño. Forma parte de los denominados planetas interiores y carece de satélites naturales al igual que Venus. Se conocía muy poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10 y se hicieron observaciones con radar y radiotelescopios.",
+    "characteristics": {
+        "orbital_distance": "57,909,227 km",
+        "radius": "2,439.7 km",
+        "volume": "6.083 x 10^10 km^3",
+        "diameter": "4,880 km",
+        "mass": "3.285 x 10^23 kg (0,055 Tierras)",
+        "density": "5.427 g/cm^3",
+        "gravity": "3.7 m/s^2",
+        "day": "58 días terrestre",
+        "orbital_period": "88 días",
+        "atmosphere": "Muy delgada, compuesta por trazas de gases como Oxígeno, Sodio, Hidrógeno, Helio y Potasio.",
+        "temperature": "Entre -173 °C y 427 °C"
+    },
+    "satellite": []
+}
