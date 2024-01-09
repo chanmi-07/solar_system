@@ -1,0 +1,17 @@
+{
+    "id": "ceres",
+    "name": "Ceres",
+    "type": "Planeta enano",
+    "description": "Ceres, el cuerpo menor del sistema solar n.º 1, es un planeta enano y el objeto astronómico más grande del cinturón de asteroides, región del sistema solar que se encuentra entre las órbitas de Marte y Júpiter.",
+    "characteristics": {
+        "orbital_distance": "2,7675 UA",
+        "radius": "473 km",
+        "diameter": "945 km",
+        "mass": "9,43±0,07x1020 kg 939 300x1015 kg",
+        "gravity": "0,27 m/s2",
+        "day": "9,074 horas",
+        "orbital_period": "4.6 años",
+        "atmosphere": "Puede tener trazas de una atmósfera débil compuesta por vapor de agua."
+    },
+    "satellite": []
+}

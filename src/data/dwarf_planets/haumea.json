@@ -1,0 +1,38 @@
+{
+    "id": "haumea",
+    "name": "Haumea",
+    "type": "Planeta enano",
+    "description": "Haumea es tan brillante como la nieve, con un albedo en el rango de 0,6-0,8,43 lo que está de acuerdo con la modelización de mejor ajuste de los espectros de superficie, que sugirió que entre el 66 y el 80 % de la superficie de Haumea parece ser hielo cristalino puro, con un contribuyente al alto albedo que podría ser cianuro de hidrógeno o arcillas de filosilicatos.",
+    "characteristics": {
+        "orbital_distance": "43,218 UA",
+        "radius": "620±15 km",
+        "diameter": "1632 km",
+        "mass": "4x10^21 kg",
+        "gravity": "0,8 m/s2",
+        "day": "3,915 horas",
+        "orbital_period": "284 años",
+        "atmosphere": "No tiene atmósfera."
+    },
+    "satellite": [
+        {
+            "id": "namaka",
+            "name": "Namaka",
+            "type": "Satélite natural",
+            "description": "Namaka, también conocido como Haumea II, es el menor y más interior de los dos satélites conocidos del planeta enano Haumea.",
+            "characteristics": {
+                "diameter": "170 km",
+                "mass": "--"
+            }
+        },
+        {
+            "id": "hi_iaka",
+            "name": "Hi'iaka",
+            "type": "Satélite natural",
+            "description": "Hi'iaka, también conocido como Haumea I, es el mayor y más exterior de los dos satélites conocidos del planeta enano Haumea.",
+            "characteristics": {
+                "diameter": "310 km",
+                "mass": "--"
+            }
+        }
+    ]
+}

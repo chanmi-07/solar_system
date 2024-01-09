@@ -1,0 +1,68 @@
+{
+    "id": "pluton",
+    "name": "Plutón",
+    "type": "Planeta enano",
+    "description": "Plutón posee una órbita excéntrica y altamente inclinada con respecto a la eclíptica, que recorre acercándose en su perihelio hasta el interior de la órbita de Neptuno. Su gran distancia al Sol y a la Tierra, unida a su reducido tamaño, impide que brille por encima de la magnitud 13,8 en sus mejores momentos, por lo cual solo puede ser apreciado con telescopios a partir de los 200 mm de abertura, fotográficamente o con cámara CCD.",
+    "characteristics": {
+        "orbital_distance": "5,906 millones km",
+        "radius": "1188,3 km",
+        "diameter": "2370 km",
+        "mass": "1,30x10^22 kg",
+        "gravity": "0,62 m/s2",
+        "day": "6,39 días",
+        "orbital_period": "248 años",
+        "atmosphere": "Compuesta por nitrógeno, metano y monóxido de carbono."
+    },
+    "satellite": [
+        {
+            "id": "caronte",
+            "name": "Caronte",
+            "type": "Satélite natural",
+            "description": "la superficie de Caronte parece estar dominada por el hielo de agua. Asimismo parece no tener atmósfera. En 2007, las observaciones llevadas a cabo por el Observatorio Gemini de hidratos de amoníaco y cristales de agua en la superficie de Caronte sugirieron la presencia de criogéiseres activos.",
+            "characteristics": {
+                "diameter": "1208 km",
+                "mass": "(1,52±0,06)x10^21 kg"
+            }
+        },
+        {
+            "id": "nix",
+            "name": "Nix",
+            "type": "Satélite natural",
+            "description": "Nix es un satélite del sistema binario constituido por Plutón y Caronte. Fue descubierto a finales de 2005 junto con Hidra y el telescopio espacial Hubble confirmó su presencia en febrero de 2006.",
+            "characteristics": {
+                "diameter": "42x36 km",
+                "mass": "5x10^16 - 2x10^18 kg"
+            }
+        },
+        {
+            "id": "estigia",
+            "name": "Estigia",
+            "type": "Satélite natural",
+            "description": "Estigia (fue denominado provisionalmente S/2012 P 1 y también como S/2012 (134340) 1 o P5) es un pequeño satélite natural del planeta enano Plutón, cuyo descubrimiento fue anunciado el 11 de julio de 2012 por Mark R. Showalter.",
+            "characteristics": {
+                "diameter": "10 - 25 km",
+                "mass": "7 500 000 000 000 000 kilogramos"
+            }
+        },
+        {
+            "id": "cerbero",
+            "name": "Cerbero",
+            "type": "Satélite natural",
+            "description": "El satélite orbita en la región entre Nix e Hydra y efectúa una órbita completa de Plutón cada casi 31 días terrestres.",
+            "characteristics": {
+                "diameter": "13-34 km",
+                "mass": "1,65x10^16 kg"
+            }
+        },
+        {
+            "id": "hidra",
+            "name": "Hidra",
+            "type": "Satélite natural",
+            "description": "Se encuentra en el plano orbital de Caronte y su forma es altamente irregular y tiene un tamaño de 55x40 km.",
+            "characteristics": {
+                "diameter": "5x10^16 - 2x10^18 kg",
+                "mass": "55x40 km"
+            }
+        }
+    ]
+}

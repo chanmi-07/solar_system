@@ -1,0 +1,28 @@
+{
+    "id": "makemake",
+    "name": "Makemake",
+    "type": "Planeta enano",
+    "description": "Makemake es un planeta enano ubicado en el cinturón de Kuiper, siendo el tercero en tamaño en el Sistema Solar y uno de los objetos más grande del exterior de nuestro vecindario solar.",
+    "characteristics": {
+        "orbital_distance": "6,8503 UA",
+        "radius": "715±11 km",
+        "diameter": "1,430 km",
+        "mass": "4,4x10^21 kg",
+        "gravity": "0,5 m/s2",
+        "day": "22,48 horas",
+        "orbital_period": "310 años",
+        "atmosphere": "No tiene atmósfera."
+    },
+    "satellite": [
+        {
+            "id": "s2015136472",
+            "name": "S/2015 (136472)",
+            "type": "Satélite natural",
+            "description": "S/2015 (136472) 1, también designado MK2 es el satélite natural de Makemake. Al principio se creía que Makemake era un planeta enano, ubicado en el cinturón de Kuiper, que no tenía satélite.",
+            "characteristics": {
+                "diameter": "175 km",
+                "mass": "--"
+            }
+        }
+    ]
+}

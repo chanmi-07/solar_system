@@ -1,0 +1,28 @@
+{
+    "id": "eris",
+    "name": "Eris",
+    "type": "Planeta enano",
+    "description": "Es un objeto transneptuniano (TNO), miembro de una población de objetos de alta excentricidad conocida como disco disperso, y posee un satélite llamado Disnomia. Está ubicado en el cinturón de Kuiper.",
+    "characteristics": {
+        "orbital_distance": "67,668 UA",
+        "radius": "1163±6 km",
+        "diameter": "2326±12 km",
+        "mass": "1,66x10^22 kg",
+        "gravity": "0,82 m/s2",
+        "day": "25,9 horas",
+        "orbital_period": "557 años",
+        "atmosphere": "Nitrógeno con rastros abundantes de Metano"
+    },
+    "satellite": [
+        {
+            "id": "disnomia",
+            "name": "Disnomia",
+            "type": "Satélite natural",
+            "description": "El satélite parece cerca de sesenta veces menos luminoso que el propio planeta enano al que orbita, y hasta 500 veces más débil en el espectro visible.",
+            "characteristics": {
+                "diameter": "815 km",
+                "mass": "--"
+            }
+        }
+    ]
+}
